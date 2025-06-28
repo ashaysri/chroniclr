@@ -1,9 +1,12 @@
 import "./App.css";
+import { Header } from "./components/Header";
+import { TimeTable } from "./components/TimeTable";
 
 function App() {
   return (
     <>
-      <h1>Chroniclr</h1>
+    <Header/>
+    <TimeTable/>
     </>
   );
 }
